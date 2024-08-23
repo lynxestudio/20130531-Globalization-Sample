@@ -112,19 +112,19 @@ switch (option.Key) {
 <p>Al ejecutar la aplicación como resultado se pueden ver las diferencias entre los formatos de fechas, números y monedas de acuerdo a la cultura seleccionada.</p>
 <div>Resultado de la  clase <i>CultureInfo</i> con la opción <i>“en-US”</i>, el formato de fechas es mes, día y año. (mm/dd/yyyy)</div>
 <div>
-        <IMG src="picture_library/globalization/fig1.png">
+        <IMG src="images/fig1.png">
 </div><br>
 <div>Resultado de la opción <i>"fr-CA"</i>, las fechas de entrada tienen el mismo formato que la cultura “en-US” , pero hay diferencia en el idioma de las fechas y en la moneda.</div>
 <div>
-        <IMG src="picture_library/globalization/fig2.png">
+        <IMG src="images/fig2.png">
 </div><br>
 <div>Resultado de la opción  <i>“en-GB”</i>, (english-Great Britain) el formato de las fechas de entrada son diferentes al de USA y Canadá ya que utiliza día, mes y año (dd/mm/yyyy), para las cantidades muestra el símbolo de la libra esterlina.</div>
 <div>
-        <IMG src="picture_library/globalization/fig3.png">
+        <IMG src="images/fig3.png">
     </div><br>
 <div>Resultado de la clase <i>CultureInfo</i> con la opción “pt-BR” (portugués Brasil) se ve la diferencia en las fechas y en la moneda ya que antepone una R de Real la moneda de Brasil.</div>
 <div>
-        <IMG src="picture_library/globalization/fig4.png">
+        <IMG src="images/fig4.png">
     </div><br>
 <p align="justify">
 En caso de que el formato de algún dato introducido no coincida con el formato de la cultura establecida, el programa arrojará una exception, en este caso seleccione la opción USA e intenté introducir las fechas con el formato día, mes y año (dd/mm/yyyy) coincidió en la primera fecha (aunque no era la fecha que quería) y arrojo la excepción en la segunda fecha por tener un formato incorrecto.
